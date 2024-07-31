@@ -1,0 +1,105 @@
+@charset "UTF-08";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    background-color:  rgb(250, 248, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    height: 20dvh;
+    padding: 10px;
+}
+.apresent{
+    background-color: rgb(250, 248, 241);
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 10px;
+}
+section.imc{
+    background-color:  rgb(250, 248, 241);
+    padding: 10px;
+    margin: 10px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(4, 0, 255, 0.774);
+}
+input{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(17, 0, 255, 0.651);
+    box-shadow:  rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.limpar{
+    background-color: rgb(255, 94, 0);
+    height: 30px;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.verificar{
+    background-color: #016FB9;
+    height: 30px;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bolder;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#res{
+    background: #016FB9;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 10px;
+}
+table{
+    width: 300px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 10px;
+}
+caption{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgba(253, 253, 253, 0.404);
+}
+tr{
+    background-color: rgb(255, 255, 255);
+}
+td, th{
+    border: 1px solid rgb(199, 199, 199);
+    padding: 8px;
+    text-align:left; 
+    vertical-align: top;
+}
+thead, tfoot{
+    color:  #016FB9;
+}
+thead > tr > th{  
+    background-color: rgb(214, 214, 214);
+}
+.num{
+    text-align: right;
+}
