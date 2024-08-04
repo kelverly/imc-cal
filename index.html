@@ -22,15 +22,15 @@
     </section>
     <section class="imc">
        <form action="" method="post" id="imcform">
-            <div class="altura">
+            <div class="altu">
                 <label for="ialt">Altura(ex: 1,75)</label>
                 <br>
-                <input type="text" name="altura" id="ialt" required placeholder="Metros">
+                <input type="text" name="altura" id="ialt" required placeholder="Metros" oninput="formatInput(this)">
             </div>
-            <div class="peso">
+            <div class="pes">
                 <label for="ipeso">Peso(ex: 80,5)</label>
                 <br>
-                <input type="text" name="altura" id="ipeso" required placeholder="Quilos">
+                <input type="text" name="altura" id="ipeso" required placeholder="Quilos" oninput="formatInput(this)">
             </div>
             <div class="verificadores">
                 <input type="button" value="Calcular" onclick="calcular()" class="verificar">
