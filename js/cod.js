@@ -1,5 +1,4 @@
 function formatInput(input) {
-    // Replace commas with dots in the input field
     input.value = input.value.replace('.', ',');
 }
 
