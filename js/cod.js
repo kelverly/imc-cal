@@ -1,3 +1,8 @@
+function formatInput(input) {
+    // Replace commas with dots in the input field
+    input.value = input.value.replace('.', ',');
+}
+
 function calcular() {
     const alturaStr = document.getElementById('ialt').value
     const pesoStr = document.getElementById('ipeso').value
